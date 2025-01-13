@@ -28,7 +28,7 @@ The script requires the following libraries:
 
 
 
-1)	Please download the csv file provided
+1)	The csv file is uploaded into GitHub and the data is read from the URL. If there is an issue, please download the csv data file and alter the initial read-in instructions.
 2)	Please run the first cell, importing all necessary libraries
 3)	If using the script to explore a different dataset, ensure that the functions to extract time points and conditions from the column titles are updated to reflect the time points and conditions of the new dataset
    
