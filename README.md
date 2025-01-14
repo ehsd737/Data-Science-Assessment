@@ -1,10 +1,10 @@
-# Data-Science-Assessment
+# Data Science Assessment
 This repository contains all materials for the Data Science and Machine Learning assessment.
 
 
 The code is presented as an annotated .ipynb notebook.
 
-This a script written to explore a bulk RNA-seq dataset (LINK). For the script to work as expected, please make sure that the dataset matches the following expected format:
+This a script written to explore a bulk RNA-seq dataset. For the script to work as expected, please make sure that the dataset matches the following expected format:
 geneID | ensembleID | biotype | base condition | condition1timepoint | condition2timepoint | condition3timepoint etc. 
 
 
@@ -42,3 +42,10 @@ The script requires the following libraries:
 
 The script outputs a PCA plot helping to identify clusters of similar samples, a line plot for each of the selected genes of interest under each of the experimental conditions, and a heatmap for the genes of interest. 
 
+
+### Introduction to the specific analysis  
+Early human development and cell plasticity is still a relative black box in biological science. 
+
+The script was specifically made to explore a bulk RNA-seq data set produced by Guo et al which established that alternative cell culture conditions allow human naive epiblast cells to differentiate into trophectoderm. This transition does not occur in mouse models; instead, cells from the zygote divide and later differentiate into either trophectoderm or inner cell mass cells. These inner cell mass cells then have a second lineage bifurcation, becoming either epiblast or hypoblast. 
+
+This study shows that human epiblast cells do not obey the sequential lineage bifurcation developmental pathway seen in mouse, but instead the epiblast cell fate remains plastic for far longer. This suggests a degree of cell fate flexibility which may aid our understanding of early human development. 
